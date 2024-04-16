@@ -1,0 +1,428 @@
+body{
+    background-color: rgb(32, 1, 61);
+    margin: 0;
+    padding: 0;
+}
+.container nav{
+    background-color: rgb(13, 1, 57);
+    height: 50px;
+}
+.disflex h1 {
+    font-size: 2rem;
+    color: white;
+    margin-top: -2.5%;
+    margin-left: 10%;
+}
+.disflex nav ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-size: 1.25rem;
+    gap: 20px;
+    margin-top: -3.5%;
+    margin-left: 60%;
+}
+.disflex ul li a.bgon {
+    background-color: rgb(203, 97, 4);
+}
+.disflex nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+.disflex nav ul li a:hover {
+    background-color: rgb(203, 97, 4);
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.firstsection div {
+    width: 30%;
+}
+.rightside img {
+    width: 130%;
+    height: auto;
+    margin-top: 0%;
+}
+.leftside p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: white;
+    font-weight: 200;
+    width: 150%;
+}
+.leftside p .name {
+    color: rgb(159, 114, 196);
+    font-weight: 500;
+}
+.button{
+    display: flex;
+    gap: 30px;
+}
+.button .button1 {
+    padding: 12px;
+    background-color: rgb(32, 1, 61);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.secondsection div {
+    width: 30%;
+}
+.leftside2 img {
+    width: 130%;
+    height: auto;
+    margin-top: 25px;
+}
+.rightside2 h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(159, 114, 196);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.rightside2 h3{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 167, 90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightside2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 100%;
+}
+.rightside2 h4{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,167,90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightside2 p2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 300;
+    width: 100%;
+}
+.rightside2 h5{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,167,90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightside2 p3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 300;
+    width: 100%;
+}
+.thirdsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.thirdsection div {
+    width: 30%;
+}
+.rightside3 img {
+    width: 130%;
+    height: auto;
+    margin-top: 0;
+}
+.leftside3 h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(159, 114, 196);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.leftside3 h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,167,90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leftside3 p1 a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 150%;
+}
+
+.leftside3 p1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 300;
+    width: 150%;
+}
+.leftside3 .button2 {
+    padding: 12px;
+    background-color: rgb(32, 1, 61);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.forthsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.forthsection div {
+    width: 30%;
+}
+.leftside4 img {
+    width: 130%;
+    height: auto;
+    margin-top: 70px;
+}
+.rightside4 h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(159, 114, 196);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.rightside4 h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,167,90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightside4 p a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 150%;
+}
+.rightside4 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 300;
+    width: 100%;
+}
+.rightside4 .button3 {
+    padding: 12px;
+    background-color: rgb(32, 1, 61);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.fivesection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.fivesection div {
+    width: 30%;
+}
+.rightside5 img {
+    width: 130%;
+    height: auto;
+    margin-top: 0;
+}
+.leftside5 h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(159, 114, 196);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.leftside5 h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,167,90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leftside5 p1 a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 150%;
+}
+
+.leftside5 p1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 300;
+    width: 150%;
+}
+.leftside5 .button4 {
+    padding: 12px;
+    background-color: rgb(32, 1, 61);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sixsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.sixsection div {
+    width: 30%;
+}
+.leftside6 img {
+    width: 130%;
+    height: auto;
+    margin-top: 70px;
+}
+.rightside6 h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(159, 114, 196);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.rightside6 h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,167,90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightside6 p a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 150%;
+}
+.rightside6 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 300;
+    width: 100%;
+}
+.rightside6 .button5 {
+    padding: 12px;
+    background-color: rgb(32, 1, 61);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.sevensection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.sevensection div {
+    width: 30%;
+}
+.rightside7 img {
+    width: 130%;
+    height: auto;
+    margin-top: 40px;
+}
+.leftside7 h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(159, 114, 196);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+.leftside7 h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,167,90);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leftside7 p1 a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 150%;
+}
+
+.leftside7 p1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 300;
+    width: 150%;
+}
+.leftside7 .button6 {
+    padding: 12px;
+    background-color: rgb(32, 1, 61);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.line1 hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.line1 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: wheat;
+    margin: 0;
+}
