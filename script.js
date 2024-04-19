@@ -22,21 +22,25 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+document.getElementById('downloadbutton').addEventListener('click', function() {
+    window.open('https://docs.google.com/document/d/1rhEwL_JuuwnnPqOTjetAQICqhyEEhrB2/edit?usp=sharing&ouid=107731211529380032496&rtpof=true&sd=true');
+});
+
 document.getElementById('openlinkbutton1').addEventListener('click', function() {
-    window.open('https://chat.openai.com/');
+    window.open('https://github.com/vanshittyagi');
 });
 
 
 document.getElementById('openlinkbutton2').addEventListener('click', function() {
-    window.open('https://www.twitter.com/yourtwitterprofile', '_blank');
+    window.open('https://vanshittyagi.github.io/Landing-Page-for-CODSOFT/');
 });
 
 document.getElementById('openlinkbutton3').addEventListener('click', function() {
-    window.open('https://www.instagram.com/yourinstagramprofile', '_blank');
+    window.open('https://vanshittyagi.github.io/Movie-Viewer/');
 });
 
 document.getElementById('openlinkbutton4').addEventListener('click', function() {
-    window.open('https://www.linkedin.com/in/yourlinkedinprofile', '_blank');
+    window.open('https://vanshittyagi.github.io/Ticket-Booking-Site/');
 });
 
 document.getElementById('openlinkbutton5').addEventListener('click', function() {
